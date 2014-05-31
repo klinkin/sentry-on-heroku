@@ -99,7 +99,7 @@ SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 
 # If set to True, causes `SecurityMiddleware` to redirect all non-HTTPS
 # requests to HTTPS
-# SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
 
 
 # Bcrypt
